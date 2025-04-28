@@ -428,6 +428,7 @@ ul.events-list li {
 .event-list__item__inner {
     display: flex;
     gap: 30px;
+    align-items: flex-start;
 }
 
 .event-list__item__inner__slider {

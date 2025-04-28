@@ -636,12 +636,12 @@ a.btn-link {
 }
 
 a.btn-link:hover {
-	outline-color: var(--dark);
+	outline-color: var(--dark-turkey);
 	outline-offset: 2px;
-	background: #FFF2D5;
-	color: var(--black);
+	background: var(--dark-turkey);
+	color: #fff;
 	transition: all .5s ease-in-out;
-}
+  }
 
 .site-title {
 	display: none;
