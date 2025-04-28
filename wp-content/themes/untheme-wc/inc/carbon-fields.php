@@ -97,8 +97,10 @@ function site_carbon()
         ->add_tab(__('Контент второго блока'), array(
             Field::make('text', 'crb_second_block_head', 'Заголовок блока')
                 ->set_width(33),
-            Field::make('rich_text', 'crb_second_block_text', 'Абзац')
-                ->set_width(50),
+            Field::make('rich_text', 'crb_second_block_text1', 'Абзац1')
+                ->set_width(33),
+                Field::make('rich_text', 'crb_second_block_text2', 'Абзац2')
+                ->set_width(33),
         ))
 
         ->add_tab(__('Блок Партнеры'), array(

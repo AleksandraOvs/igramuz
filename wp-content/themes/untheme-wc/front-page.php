@@ -4,6 +4,8 @@
 
 <div class="site-content">
 
+    <?php get_template_part('template-parts/welcome-block') ?>
+
     <?php get_template_part('template-parts/events-query') ?>
     <?php if ($contact_form1 = carbon_get_theme_option('crb_cf')) {
     ?>
