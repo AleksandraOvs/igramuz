@@ -1536,7 +1536,7 @@ section.page-section._single-post-portfolio .portfolio-thumb {
     left: 0;
   }
 
-  .section-welcome__blocks p{
+  .section-welcome__blocks p:not(:first-child) {
     margin-top: 15px;
   }
 
