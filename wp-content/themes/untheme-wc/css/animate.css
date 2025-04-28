@@ -1,0 +1,68 @@
+.fromtop {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all .5s ease-in-out;
+}
+
+.toright {
+    transform: translateX(-20px);
+    opacity: 0;
+}
+
+.toleft {
+    transform: translateX(20px);
+    opacity: 0;
+}
+
+.frombottom {
+    transform: translateY(20px);
+    opacity: 0;
+}
+
+.element-show{
+    transform: none;
+    opacity: 1;
+    transition: transform .5s ease-in-out, opacity .5s linear;
+}
+
+.toopacity{
+    opacity: 0;
+    
+}
+
+.toopacity.element-show{
+    opacity: 1;
+    transition: opacity .5s ease-in-out .2s, fadeEffect .5s ease-in-out;
+}
+
+.portfolio-list a.toopacity.element-show:nth-child(2) {
+    transition-delay: 0.45s;
+    animation: fadeEffect 0.5s alternate;
+}
+
+.portfolio-list a.toopacity.element-show:nth-child(3) {
+    transition-delay: 0.45s;
+    animation: fadeEffect 1s alternate;
+}
+
+.portfolio-list a.toopacity.element-show:nth-child(4) {
+    transition-delay: 0.35s;
+    animation: fadeEffect 0.7s alternate;
+}
+
+@keyframes fadeEffect{
+    0% {
+        opacity: 0;
+        transform: scale(1);
+    }
+
+    50%{
+        opacity: 1;
+        transform: scale(1.03);
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
