@@ -54,6 +54,15 @@ h4 {
     margin-bottom: 10px;
   }
 
+  h5{
+    color: var(--black);
+    line-height: 1.4;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
 h1.entry-title {
     font-size: 42px;
     font-family: 'Cormorant', serif;
@@ -1369,10 +1378,14 @@ section.page-section._single-post-portfolio .portfolio-thumb {
 .event-content__description {
     margin-bottom: 50px;
     line-height: 140%;
-    color: var(--grey);
+    color: var(--dark-turkey);
     font-size: 16px;
     font-weight: 600;
 }
+
+.event-content__description p:not(:last-child) {
+    margin-bottom: 10px;
+  }
 
 .single-post-event__content .event__content {
     width: 58%;
