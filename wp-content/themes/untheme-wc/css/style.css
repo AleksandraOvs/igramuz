@@ -47,6 +47,7 @@ h3 {
 
 h4 {
     color: var(--dark-turkey);
+    line-height: 1.4;
     font-size: 26px;
     font-weight: 400;
     margin-top: 10px;
