@@ -1597,6 +1597,10 @@ section.page-section._single-post-portfolio .portfolio-thumb {
         padding: 0 15px;
     }
 
+    .section-welcome h2.title {
+        width: 100%;
+    }
+
     ul.archive-list {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1680,8 +1684,12 @@ section.page-section._single-post-portfolio .portfolio-thumb {
         padding-right: 0;
         flex-direction: column;
         gap: 40px;
-        width: 70%;
+        width: 100%;
     }
+
+    .section-welcome__blocks > div {
+        width: 100%;
+      }
 }
 
 @media (max-width: 992px) {
