@@ -1554,6 +1554,10 @@ section.page-section._single-post-portfolio .portfolio-thumb {
     padding-right: 50px;
 }
 
+.section-welcome__blocks > div {
+    width: calc(100% / 2 );
+  }
+
 .section-welcome__blocks:before {
     content: '';
     width: 100%;
