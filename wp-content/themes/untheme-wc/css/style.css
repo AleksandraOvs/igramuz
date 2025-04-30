@@ -1539,8 +1539,10 @@ section.page-section._single-post-portfolio .portfolio-thumb {
     border: 1px solid var(--dark-turkey);
     font-weight: 400;
     margin-top: 30px;
+    color: var(--black);
+    background: rgba(209, 184, 184,.3);
   }
-  
+
 /*WELCOME BLOCK */
 
 .section-welcome {
