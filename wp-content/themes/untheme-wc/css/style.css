@@ -1532,6 +1532,15 @@ section.page-section._single-post-portfolio .portfolio-thumb {
     gap: 20px;
 }
 
+
+.accent-text {
+    display: block;
+    padding: 10px;
+    border: 1px solid var(--dark-turkey);
+    font-weight: 400;
+    margin-top: 30px;
+  }
+  
 /*WELCOME BLOCK */
 
 .section-welcome {
