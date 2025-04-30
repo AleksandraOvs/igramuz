@@ -5,7 +5,7 @@
             'post_type' => 'event',
             'publish' => true,
             'orderby' => 'date',
-            'order' => 'ASC'
+            'order' => 'DESC'
             //'cat' => 'decoration'
             //'paged' => get_query_var('paged'),
         );
