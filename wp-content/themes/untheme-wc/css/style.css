@@ -1596,7 +1596,7 @@ section.page-section._single-post-portfolio .portfolio-thumb {
 }
 
 .section-regular .post {
-    background: rgba(var(--black-rgb), .85);
+    background: rgba(var(--black-rgb), .1);
     padding: 30px;
     color: var(--light);
     width: calc(100% / 2 - 15px);
@@ -1606,7 +1606,7 @@ section.page-section._single-post-portfolio .portfolio-thumb {
 }
 
 .event-content .post .event-content__description {
-    color: #fff;
+    color: var(--black);
     font-weight: 400;
 }
 
@@ -1624,7 +1624,6 @@ section.page-section._single-post-portfolio .portfolio-thumb {
 }
 
 .fixed-container._regular .post .event-content .event-content__description {
-    color: #fff;
     font-weight: 400;
     margin-bottom: 0;
   }
