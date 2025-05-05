@@ -1640,6 +1640,10 @@ section.page-section._single-post-portfolio .portfolio-thumb {
     font-size: 26px;
   }
 
+  .post .event-content .event-content__description {
+    color: var(--black);
+  }
+
 @media (max-width: 1440px) {
     .fixed-container {
         width: 100%;
