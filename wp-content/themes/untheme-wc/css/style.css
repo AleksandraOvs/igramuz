@@ -1638,6 +1638,10 @@ section.page-section._single-post-portfolio .portfolio-thumb {
     margin-top: 30px;
   }
 
+  .post h3 {
+    font-size: 26px;
+  }
+
 @media (max-width: 1440px) {
     .fixed-container {
         width: 100%;
