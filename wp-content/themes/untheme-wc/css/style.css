@@ -1627,10 +1627,10 @@ section.page-section._single-post-portfolio .portfolio-thumb {
     margin-bottom: 0;
   }
 
-  .section-regular .post .event-content .event-links a.btn-link {
+  /* .section-regular .post .event-content .event-links a.btn-link {
     background: var(--light);
     color: var(--black);
-  }
+  } */
 
   .fixed-container._regular .post .event-content .event-links {
     margin-top: 30px;
