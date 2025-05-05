@@ -99,7 +99,7 @@ function site_carbon()
                 ->set_width(33),
             Field::make('rich_text', 'crb_second_block_text1', 'Абзац1')
                 ->set_width(33),
-                Field::make('rich_text', 'crb_second_block_text2', 'Абзац2')
+            Field::make('rich_text', 'crb_second_block_text2', 'Абзац2')
                 ->set_width(33),
         ))
 
@@ -149,7 +149,7 @@ function site_carbon()
         ));
 
     Container::make('post_meta', 'Информация о мероприятии')
-        ->show_on_post_type('event')
+       // ->show_on_post_type('event', 'post')
         ->add_fields(array(
             Field::make('rich_text', 'crb_event_desc', 'Текст описания')
         ))
