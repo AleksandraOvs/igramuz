@@ -38,11 +38,12 @@ h2 {
 }
 
 h3 {
-    font-size: 38px;
+    font-size: 24px;
     font-family: 'Alice', sans-serif;
     font-weight: 400;
     line-height: 120%;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 h4 {
