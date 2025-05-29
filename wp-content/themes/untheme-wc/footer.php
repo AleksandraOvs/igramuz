@@ -43,16 +43,32 @@
 		</div><!-- .site-info -->
 
 		<div class="footer-menu__inner">
+
 			<?php
 			wp_nav_menu(
 				array(
-					'theme_location' => 'services',
-					'menu_id'        => 'footer-menu',
+					'theme_location' => 'menu-footer',
+					//'menu_id'        => 'primary-menu',
+					'container'	=> false
 				)
 			);
 			?>
 		</div>
 
+	</div>
+
+	<div class="footer-bottom">
+		<div class="fixed-container">
+			<div class="copyright">
+				<span>&copy;</span> <span><?php bloginfo('name'); ?></span><span><?php echo ', ' . date('Y') . 'г.'; ?></span>
+			</div>
+
+			<?php
+			// if (is_active_sidebar('footer-widget')) {
+			// 	dynamic_sidebar('footer-widget');
+			// }
+			?>
+		</div>
 	</div>
 
 	<?php
@@ -76,7 +92,7 @@
 					$phone_item_img_url = wp_get_attachment_image_url($phone_item_img, 'full');
 					echo '<li class="messengers-list__item">
 									<a href="' . $phone_item . '" class="messengers-list__item__link">
-									<img src="'.get_stylesheet_directory_uri().'/images/svg/phone.svg" alt="phone" />
+									<img src="' . get_stylesheet_directory_uri() . '/images/svg/phone.svg" alt="phone" />
 									</a>
 									</li>';
 				}

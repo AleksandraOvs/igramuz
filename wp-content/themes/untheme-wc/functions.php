@@ -50,6 +50,7 @@ function untheme_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'untheme' ),
+			'menu-footer' => esc_html__( 'Меню в подвале', 'untheme' ),
 		)
 	);
 
@@ -84,6 +85,19 @@ function untheme_setup() {
 
 	// Add theme support for selective refresh for widgets.
 	add_theme_support( 'customize-selective-refresh-widgets' );
+
+	function register_site_widgets(){
+	register_sidebar( array(
+		'name' => 'Виджет в подвале сайта',
+		'id'	=> 'footer-widget',
+		'description' => 'Выводится в нижней части футера для ссылок',
+		'before_widget' => '<div class="footer-widget-block">',
+		'after_widget' => '</div>',
+		//'before_title' => '<h2 class="widgettitle">',
+		//'after_title' => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'register_site_widgets' );
 
 	/**
 	 * Add support for core custom logo.
